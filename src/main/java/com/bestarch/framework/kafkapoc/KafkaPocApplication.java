@@ -15,9 +15,13 @@ import com.bestarch.framework.kafkapoc.bean.Request;
 import com.bestarch.framework.kafkapoc.service.DummyService;
 import com.hazelcast.core.HazelcastInstance;
 
+/**
+ * 
+ * @author bestarch
+ *
+ */
 @SpringBootApplication
 @RestController
-//@EnableCaching
 public class KafkaPocApplication { //implements CommandLineRunner {
 	
 	@Autowired

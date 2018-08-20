@@ -12,6 +12,11 @@ import com.hazelcast.core.Hazelcast;
 import com.hazelcast.core.HazelcastInstance;
 import com.hazelcast.spring.cache.HazelcastCacheManager;
 
+/**
+ * 
+ * @author bestarch
+ *
+ */
 @Configuration
 public class HazelcastConfiguration {
 

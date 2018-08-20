@@ -17,6 +17,11 @@ import com.bestarch.framework.kafkapoc.bean.Request;
 import com.bestarch.framework.kafkapoc.config.TestController;
 import com.hazelcast.core.HazelcastInstance;
 
+/**
+ * 
+ * @author bestarch
+ *
+ */
 @Service
 //@CacheConfig(cacheNames = "request")
 public class DummyService {

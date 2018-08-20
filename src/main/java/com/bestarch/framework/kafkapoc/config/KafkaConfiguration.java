@@ -15,6 +15,11 @@ import org.springframework.kafka.support.serializer.JsonDeserializer;
 
 import com.bestarch.framework.kafkapoc.bean.Request;
 
+/**
+ * 
+ * @author bestarch
+ *
+ */
 @Configuration
 @EnableKafka
 public class KafkaConfiguration {
